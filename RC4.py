@@ -20,7 +20,7 @@ def KSA(key):
 	# 256 is the max keylength
 	S = [*range(256)] 
 	j = 0
-    #perform key scheduling
+    	#perform key scheduling
 	for i in range(256):
 		j = (j + S[i] + key[i % keylength]) % 256
 		#  swap values of S[i] and S[j]
