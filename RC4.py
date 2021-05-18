@@ -75,7 +75,7 @@ key_gen_end = time.time()
     
     
 def encrypt():
-	#This is the encryption function.
+    #This is the encryption function.
     #Plaintext xor bits Keystream = Ciphertext
     #To encrypt, XOR the value k (keystream) with the next byte of plaintext.
 	key = input("Input your encryption key : ")
