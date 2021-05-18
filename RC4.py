@@ -98,7 +98,7 @@ def encrypt():
 end = time.time()
 
 def decrypt():
-	#This is the decryption function.
+    #This is the decryption function.
     #Ciphertext xor bits Keystream = Plaintext
     #To decrypt, XOR the value k (keystream) with the next byte of ciphertext.
 	key = input("Input your encryption key : ")
